@@ -1,0 +1,57 @@
+
+
+#en-offcanvasNavbarDropdown-expand-md::before {
+    background-image: url('https://scdn.italki.com/ng/static/image/asgardhp/english.svg');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+}
+#en-offcanvasNavbarDropdown-expand-md{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+#ge-offcanvasNavbarDropdown-expand-md::before{
+    background-image: url('https://scdn.italki.com/ng/static/image/asgardhp/german.svg');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+}
+#ge-offcanvasNavbarDropdown-expand-md{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+#fr-offcanvasNavbarDropdown-expand-md::before{
+    background-image: url('https://scdn.italki.com/ng/static/image/asgardhp/french.svg');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+}
+#fr-offcanvasNavbarDropdown-expand-md{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.myPinkColor{
+    color:rgb(252, 3, 207)!important;
+}
+

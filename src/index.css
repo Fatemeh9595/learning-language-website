@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=New+Amsterdam&family=Pirata+One&display=swap');
+  .nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
