@@ -1,0 +1,19 @@
+
+.nav{
+    display:flex;
+    justify-content: center;
+    color: rgb(69, 69, 130);
+}
+
+
+.box{
+    background-color:#f8f9fa;
+    width: 520px;
+    height: 100px;
+    overflow-y: hidden;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
