@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7c3307ed.css",
-    "main.js": "./static/js/main.254f4547.js",
+    "main.js": "./static/js/main.b1d175f3.js",
     "static/media/English-Grammar-in-Use.pdf": "./static/media/English-Grammar-in-Use.cdb9454fb91df1159388.pdf",
     "static/media/English Vocabulary In Use.pdf": "./static/media/English Vocabulary In Use.751244a1c3275acf485a.pdf",
     "static/media/anna-karenina.pdf": "./static/media/anna-karenina.3817d93d8e4ee080838f.pdf",
@@ -27,10 +27,10 @@
     "static/media/grammer.svg": "./static/media/grammer.0a9ca1c42c7784fa4b32951d54358238.svg",
     "index.html": "./index.html",
     "main.7c3307ed.css.map": "./static/css/main.7c3307ed.css.map",
-    "main.254f4547.js.map": "./static/js/main.254f4547.js.map"
+    "main.b1d175f3.js.map": "./static/js/main.b1d175f3.js.map"
   },
   "entrypoints": [
     "static/css/main.7c3307ed.css",
-    "static/js/main.254f4547.js"
+    "static/js/main.b1d175f3.js"
   ]
 }
