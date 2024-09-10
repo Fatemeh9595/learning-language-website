@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import {BrowserRouter, HashRouter, Route, Routes} from 'react-router-dom';
 import OurBooks from './components/ourBooks/OurBooks';
 import MyFoot from './components/myFoot/MyFoot';
 import Book from './components/book/Book';
@@ -15,20 +15,20 @@ import GermanGrammer from "./components/germanGrammer/germanGrammer"
 
 function App() {
   return (
-    <BrowserRouter basename='/learning-language-website'>
+    <HashRouter>
       <Routes>
-         <Route path='/' element={<Home/>} />
-         <Route path='/our-books' element={<OurBooks/>} />
-         <Route path='/english-grammer' element={<EnglishGrammer/>} />
-         <Route path='/english-vocabulary' element={<EnglishVocabulary/>} />
-         <Route path='/french-grammer' element={<FrenchGrammer/>} />
-         <Route path='/french-vocabulary' element={<FrenchVocabulary/>} />
-         <Route path='/german-grammer' element={<GermanGrammer/>} />
-         <Route path='/german-vocabulary' element={<GermanVocabulary/>} />
-         <Route path='/book/:bookId' element={<Book/>} />
-         <Route path='/contact-with-us' element={<MyFoot/>} />
+         <Route path='' element={<Home/>} />
+         <Route path='our-books' element={<OurBooks/>} />
+         <Route path='english-grammer' element={<EnglishGrammer/>} />
+         <Route path='english-vocabulary' element={<EnglishVocabulary/>} />
+         <Route path='french-grammer' element={<FrenchGrammer/>} />
+         <Route path='french-vocabulary' element={<FrenchVocabulary/>} />
+         <Route path='german-grammer' element={<GermanGrammer/>} />
+         <Route path='german-vocabulary' element={<GermanVocabulary/>} />
+         <Route path='book/:bookId' element={<Book/>} />
+         <Route path='contact-with-us' element={<MyFoot/>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
    
   );
 }

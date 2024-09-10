@@ -16,7 +16,7 @@ function MyNavbar(){
         <>
             <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
               <Container fluid>
-                <Navbar.Brand href="/" ><p style={{fontFamily:"Nerko One" , fontSize:"70px"}} className="myPinkColor px-5 animate__animated animate__bounce" >lingolift</p></Navbar.Brand>
+                <Navbar.Brand href="./#/" ><p style={{fontFamily:"Nerko One" , fontSize:"70px"}} className="myPinkColor px-5 animate__animated animate__bounce" >lingolift</p></Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                 <Navbar.Offcanvas
                   id={`offcanvasNavbar-expand-${expand}`}
@@ -34,10 +34,10 @@ function MyNavbar(){
                         title="English"
                         id={`en-offcanvasNavbarDropdown-expand-${expand}`}
                       >
-                        <NavDropdown.Item href="../english-grammer">
+                        <NavDropdown.Item href="./#/english-grammer">
                           Grammer
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="../english-vocabulary">
+                        <NavDropdown.Item href="./#/english-vocabulary">
                           Vocabulary
                         </NavDropdown.Item>
                       </NavDropdown>
@@ -45,8 +45,8 @@ function MyNavbar(){
                         title="German"
                         id={`ge-offcanvasNavbarDropdown-expand-${expand}`}
                       >
-                        <NavDropdown.Item href="../german-grammer">Grammar</NavDropdown.Item>
-                        <NavDropdown.Item href="../german-vocabulary">
+                        <NavDropdown.Item href="./#/german-grammer">Grammar</NavDropdown.Item>
+                        <NavDropdown.Item href="./#/german-vocabulary">
                           Vocabulary
                         </NavDropdown.Item>
                       </NavDropdown>
@@ -54,8 +54,8 @@ function MyNavbar(){
                         title="French"
                         id={`fr-offcanvasNavbarDropdown-expand-${expand}`}
                       >
-                        <NavDropdown.Item href="../french-grammer">Grammar</NavDropdown.Item>
-                        <NavDropdown.Item href="../french-vocabulary">
+                        <NavDropdown.Item href="./#/french-grammer">Grammar</NavDropdown.Item>
+                        <NavDropdown.Item href="./#/french-vocabulary">
                           Vocabulary
                         </NavDropdown.Item>
                       </NavDropdown>
