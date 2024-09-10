@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/learning-language-website/static/css/main.7c3307ed.css",
-    "main.js": "/learning-language-website/static/js/main.7548ee3b.js",
+    "main.js": "/learning-language-website/static/js/main.2ccf25b8.js",
     "static/media/English-Grammar-in-Use.pdf": "/learning-language-website/static/media/English-Grammar-in-Use.cdb9454fb91df1159388.pdf",
     "static/media/English Vocabulary In Use.pdf": "/learning-language-website/static/media/English Vocabulary In Use.751244a1c3275acf485a.pdf",
     "static/media/anna-karenina.pdf": "/learning-language-website/static/media/anna-karenina.3817d93d8e4ee080838f.pdf",
@@ -27,10 +27,10 @@
     "static/media/grammer.svg": "/learning-language-website/static/media/grammer.0a9ca1c42c7784fa4b32951d54358238.svg",
     "index.html": "/learning-language-website/index.html",
     "main.7c3307ed.css.map": "/learning-language-website/static/css/main.7c3307ed.css.map",
-    "main.7548ee3b.js.map": "/learning-language-website/static/js/main.7548ee3b.js.map"
+    "main.2ccf25b8.js.map": "/learning-language-website/static/js/main.2ccf25b8.js.map"
   },
   "entrypoints": [
     "static/css/main.7c3307ed.css",
-    "static/js/main.7548ee3b.js"
+    "static/js/main.2ccf25b8.js"
   ]
 }
