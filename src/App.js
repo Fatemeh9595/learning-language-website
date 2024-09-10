@@ -15,7 +15,7 @@ import GermanGrammer from "./components/germanGrammer/germanGrammer"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/learning-language-website'>
       <Routes>
          <Route path='/' element={<Home/>} />
          <Route path='/our-books' element={<OurBooks/>} />
