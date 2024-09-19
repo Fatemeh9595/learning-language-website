@@ -5,6 +5,7 @@ import learningPic from "../../assets/images/teach.svg";
 import readingPic from "../../assets/images/read.svg";
 import {Container, Row , Col} from "react-bootstrap";
 import MyFoot from "../myFoot/MyFoot";
+import FeedBackForm from "../feedBackForm/FeedBackForm";
 
 
 function Home() {
@@ -198,6 +199,7 @@ function Home() {
             />
           </Col>
          </Row><hr />
+         <FeedBackForm/>
       </Container>
       <MyFoot/>
    </>
