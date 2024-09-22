@@ -30,8 +30,8 @@ function EnglishGrammer(){
                   What Is Grammar?
                  </h2>
                  <p style={{ textAlign: "justify" }}>
-                 The top 1,000 vocabulary words have been carefully chosen to represent difficult but common words that appear in everyday academic and business writing. These words are also the most likely to appear on the SAT, ACT, GRE, and ToEFL.
-                 </p>
+                 Grammar is the system of rules that governs how words are structured and used in a language to convey meaning. It includes the organization of words into sentences, the correct use of parts of speech (such as nouns, verbs, and adjectives), and the application of tenses, punctuation, and sentence structure. Grammar helps ensure that communication is clear and consistent, allowing speakers and writers to express ideas in a way that others can understand. In English, grammar also dictates how words agree in number and tense, how they are modified, and how sentences are punctuated.
+                  </p>
               </Col>
               <Col className="col-12 col-lg-5 offset-lg-1">
                  <img src={grammer} className="img-fluid" 
@@ -69,7 +69,7 @@ function EnglishGrammer(){
                   textAlign:"center",
                   marginTop:"150px",
                 }}
-              > A Comprehensive Overview of English Verb Grammar
+              > A Comprehensive Overview of English Verb Grammar :
               </h2>
             </Row>
             <Row style={{marginBottom:"100px"}}>

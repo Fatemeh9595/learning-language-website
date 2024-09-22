@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 function MyFoot(){
     return(
-        <div id="myFooter" style={{backgroundColor:"#f8f9fa"}}>
+        <div id="myFooter" style={{backgroundColor:"yellow" , backgroundColor:"#f8f9fa"}}>
            <Container>
                  <div className="p-5 m-5">
                      <Row className="g-5">
