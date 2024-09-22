@@ -4,7 +4,7 @@ import { booksData } from "../../data";
 import MyNavbar from "../navbar/Navbar";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import MyFoot from "../myFoot/MyFoot";
-import annaKareninaBook from "../../assets/books/anna-karenina.pdf"
+
 
 
 

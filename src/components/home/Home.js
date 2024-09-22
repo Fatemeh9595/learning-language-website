@@ -101,7 +101,8 @@ function Home() {
                    style={{
                      fontSize: "50px",
                      fontWeight: "bold",
-                     overflowY : "hidden"
+                     overflowY : "hidden",
+                     color: "darkGreen"
                    }}
                   >
                    Top Websites to Practice English Online :
@@ -149,7 +150,7 @@ function Home() {
             <img
               style={{ width: "600px", height: "300px" }}
               className="img-fluid"
-              src="https://scontent.fcia4-1.fna.fbcdn.net/v/t39.30808-6/399231233_727127239459806_4779304366340358102_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=orK7AyWKRSgQ7kNvgHrskH4&_nc_ht=scontent.fcia4-1.fna&oh=00_AYDcceT92FNlgp0b7kwGvcPub_tL0FJAg06A8tQeh5ADuw&oe=66D3D529"
+              src="https://allesl.com/wp-content/uploads/2018/05/bbc-learning-english.png"
               alt="image"
            />
          </Col>

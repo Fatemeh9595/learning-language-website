@@ -78,7 +78,7 @@ function GermanGrammer(){
                <p className="germanSummaryGrammerBox shadow text-center m-auto p-5 mb-5" style={{ textAlign: "justify" }}>
                  <b>1. Verb Conjugation</b> <br />
                  <b>Person and Number :</b> Verbs change based on the subject (I, you, he/she/it, we, they). <br />
-                 <b>Person and Number :</b> gehen (to go) – ich gehe, du gehst, er geht.<br />
+                 <b>Person and Number :</b> gehen (to go) _ ich gehe, du gehst, er geht.<br />
                  <b>Tenses :</b> Six tenses indicate time.<br />
                  <b>Present :</b> ich gehe (I go)<br />
                  <b>Past Simple :</b> ich ging (I went)<br />
@@ -86,21 +86,21 @@ function GermanGrammer(){
                  <b>Future I :</b> ich werde gehen (I will go)<br />
                  <b>Moods:</b><br />
                  <b>Indicative:</b> Standard statements/questions.<br />
-                 <b>Imperative:</b> Commands (Geh! – Go!)<br />
+                 <b>Imperative:</b> Commands (Geh! _ Go!)<br />
                  <b>Subjunctive I/II:</b> Hypotheticals/wishes.<br />
                  <b>2. Regular and Irregular Verbs</b><br />
                  <b>Regular Verbs:</b> Follow a predictable pattern.<br />
-                 <b>Example:</b> spielen (to play) – ich spiele, du spielst.<br />
+                 <b>Example:</b> spielen (to play) _ ich spiele, du spielst.<br />
                  <b>Irregular Verbs:</b> Have unique forms.<br />
-                 <b>Example:</b> gehen (to go) – ich gehe, du gehst.<br />
+                 <b>Example:</b> gehen (to go) _ ich gehe, du gehst.<br />
                  <b>3. Separable and Inseparable Verbs</b><br />
                  <b>Separable Verbs:</b> Prefix separates from the root.<br />
-                 <b>Example:</b> ankommen (to arrive) – ich komme an.<br />
+                 <b>Example:</b> ankommen (to arrive) _ ich komme an.<br />
                  <b>Inseparable Verbs:</b> Prefix stays attached.<br />
-                 <b>Example:</b> verstehen (to understand) – ich verstehe.<br />
+                 <b>Example:</b> verstehen (to understand) _ ich verstehe.<br />
                  <b>4. Modal Verbs</b><br />
                  Modify the main verb to express necessity or ability.<br />
-                 Example: können (can) – Ich kann schwimmen (I can swim).<br />
+                 Example: können (can) _ Ich kann schwimmen (I can swim).<br />
                  <b>5. Infinitive Constructions</b><br />
                  Infinitive with "zu": Express purpose.<br />
                  <b>Example:</b> Ich habe vergessen, das Buch zu lesen (I forgot to read the book).<br />

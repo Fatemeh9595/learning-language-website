@@ -79,7 +79,7 @@ function FrenchGrammer(){
                French verbs are categorized into three groups: <br /> <b>-er, -ir, and -re</b> verbs. <br /> The conjugation of these verbs changes based on the subject pronoun ( <b>e.g., je, tu, il</b> ) and the tense (present, past, future, etc.). <br />
                Key tenses include: <br />
                <b>Present</b> : Describes actions happening now (e.g., je parle - I speak). <br />
-               <b>Passé composé</b> : Used for completed actions, formed with avoir or être plus the past participle (e.g., j’ai parlé - I spoke). <br />
+               <b>Passé composé</b> : Used for completed actions, formed with avoir or être plus the past participle (e.g., j'ai parlé - I spoke). <br />
                <b>Imperfect</b> : Describes ongoing or habitual past actions (e.g., je parlais - I was speaking). <br />
                <b>Future</b> : Describes actions that will happen (e.g., je parlerai - I will speak). <br />
                <b>Conditional</b> : Expresses what would happen under certain conditions (e.g., je parlerais - I would speak). <br />
