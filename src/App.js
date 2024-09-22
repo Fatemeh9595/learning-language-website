@@ -7,10 +7,10 @@ import Book from './components/book/Book';
 import Home from './components/home/Home';
 import EnglishGrammer from './components/englishGrammer/EnglishGrammer';
 import EnglishVocabulary from './components/englishVocabulary/EnglishVocabulary';
-import FrenchGrammer from "./components/frenchGrammer/FrenchGrammer"
+import FrenchGrammer from "./components/frenchGrammer/frenchGrammer"
 import FrenchVocabulary from "./components/frenchVocabulary/FrenchVocabulary"
 import GermanVocabulary from "./components/germanVocabulary/germanVocabulary"
-import GermanGrammer from "./components/germanGrammer/GermanGrammer"
+import GermanGrammer from "./components/germanGrammer/germanGrammer"
 
 
 function App() {
