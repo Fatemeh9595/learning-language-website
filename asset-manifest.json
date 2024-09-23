@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/learning-language-website/static/css/main.2748cc6e.css",
-    "main.js": "/learning-language-website/static/js/main.64b94221.js",
+    "main.js": "/learning-language-website/static/js/main.a671c723.js",
     "static/media/English-Grammar-in-Use.pdf": "/learning-language-website/static/media/English-Grammar-in-Use.cdb9454fb91df1159388.pdf",
     "static/media/modern-french-grammar-a-practical-guide.pdf": "/learning-language-website/static/media/modern-french-grammar-a-practical-guide.9001580b3b3b03973012.pdf",
     "static/media/English Vocabulary In Use.pdf": "/learning-language-website/static/media/English Vocabulary In Use.751244a1c3275acf485a.pdf",
@@ -35,10 +35,10 @@
     "static/media/german-vocabulary.jpg": "/learning-language-website/static/media/german-vocabulary.1f30260dcabdda08621c.jpg",
     "index.html": "/learning-language-website/index.html",
     "main.2748cc6e.css.map": "/learning-language-website/static/css/main.2748cc6e.css.map",
-    "main.64b94221.js.map": "/learning-language-website/static/js/main.64b94221.js.map"
+    "main.a671c723.js.map": "/learning-language-website/static/js/main.a671c723.js.map"
   },
   "entrypoints": [
     "static/css/main.2748cc6e.css",
-    "static/js/main.64b94221.js"
+    "static/js/main.a671c723.js"
   ]
 }
