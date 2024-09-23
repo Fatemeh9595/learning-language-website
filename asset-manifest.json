@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/learning-language-website/static/css/main.7c3307ed.css",
-    "main.js": "/learning-language-website/static/js/main.fec550f7.js",
+    "main.css": "/learning-language-website/static/css/main.2748cc6e.css",
+    "main.js": "/learning-language-website/static/js/main.64b94221.js",
     "static/media/English-Grammar-in-Use.pdf": "/learning-language-website/static/media/English-Grammar-in-Use.cdb9454fb91df1159388.pdf",
+    "static/media/modern-french-grammar-a-practical-guide.pdf": "/learning-language-website/static/media/modern-french-grammar-a-practical-guide.9001580b3b3b03973012.pdf",
     "static/media/English Vocabulary In Use.pdf": "/learning-language-website/static/media/English Vocabulary In Use.751244a1c3275acf485a.pdf",
+    "static/media/Collins_German_3000_words_and_phrases.pdf": "/learning-language-website/static/media/Collins_German_3000_words_and_phrases.1fc7813c461bb259ee88.pdf",
     "static/media/anna-karenina.pdf": "/learning-language-website/static/media/anna-karenina.3817d93d8e4ee080838f.pdf",
+    "static/media/Collins Easy Learning French Words Book.pdf": "/learning-language-website/static/media/Collins Easy Learning French Words Book.b443516b7e9170240dff.pdf",
     "static/media/jane-eyre.pdf": "/learning-language-website/static/media/jane-eyre.29372ebcd19717d7bac9.pdf",
     "static/media/great-expectations.pdf": "/learning-language-website/static/media/great-expectations.11c55af32c5fc42ed6cd.pdf",
     "static/media/pride-and-prejudice.pdf": "/learning-language-website/static/media/pride-and-prejudice.5a48f74035d2bbe50e3b.pdf",
     "static/media/grimms-fairy-tales.pdf": "/learning-language-website/static/media/grimms-fairy-tales.6d7db961acebfc2da2c9.pdf",
     "static/media/frankenstein.pdf": "/learning-language-website/static/media/frankenstein.89de61a3a83dcf072ac3.pdf",
     "static/media/the-great-gatsby.pdf": "/learning-language-website/static/media/the-great-gatsby.108eb160f2d47c85dbb2.pdf",
+    "static/media/german-grammer-book.pdf": "/learning-language-website/static/media/german-grammer-book.b87406dfce5f4275bb3c.pdf",
     "static/media/heart-of-darkness.pdf": "/learning-language-website/static/media/heart-of-darkness.328756ead447465812c6.pdf",
     "static/media/jane eyre.jpeg": "/learning-language-website/static/media/jane eyre.2a08f5a75f23b6504000.jpeg",
     "static/media/pride and prejudice.jpeg": "/learning-language-website/static/media/pride and prejudice.aac311212f53295bea69.jpeg",
@@ -22,15 +26,19 @@
     "static/media/english-grammer-in-use.jpg": "/learning-language-website/static/media/english-grammer-in-use.c23238e0784b7b6debbd.jpg",
     "static/media/english-vocabulary-in-use.jpg": "/learning-language-website/static/media/english-vocabulary-in-use.770faf4420231552fa97.jpg",
     "static/media/frankestein.jpeg": "/learning-language-website/static/media/frankestein.ff2281df5a694243fa5b.jpeg",
+    "static/media/french-vocabulary_.jpg": "/learning-language-website/static/media/french-vocabulary_.f29a91350fd3320eb85e.jpg",
     "static/media/read.svg": "/learning-language-website/static/media/read.d905b250a56dfc71a640e6a17b202661.svg",
+    "static/media/german-grammer.jpg": "/learning-language-website/static/media/german-grammer.112fe6c61bb610c9b8f7.jpg",
+    "static/media/frenchGrammer_.jpg": "/learning-language-website/static/media/frenchGrammer_.8990c7a7a0ce213f37b9.jpg",
     "static/media/teach.svg": "/learning-language-website/static/media/teach.03eb8aa878932b0011bc0d526c271541.svg",
     "static/media/grammer.svg": "/learning-language-website/static/media/grammer.0a9ca1c42c7784fa4b32951d54358238.svg",
+    "static/media/german-vocabulary.jpg": "/learning-language-website/static/media/german-vocabulary.1f30260dcabdda08621c.jpg",
     "index.html": "/learning-language-website/index.html",
-    "main.7c3307ed.css.map": "/learning-language-website/static/css/main.7c3307ed.css.map",
-    "main.fec550f7.js.map": "/learning-language-website/static/js/main.fec550f7.js.map"
+    "main.2748cc6e.css.map": "/learning-language-website/static/css/main.2748cc6e.css.map",
+    "main.64b94221.js.map": "/learning-language-website/static/js/main.64b94221.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c3307ed.css",
-    "static/js/main.fec550f7.js"
+    "static/css/main.2748cc6e.css",
+    "static/js/main.64b94221.js"
   ]
 }
