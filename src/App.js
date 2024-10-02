@@ -7,10 +7,11 @@ import Book from './components/book/Book';
 import Home from './components/home/Home';
 import EnglishGrammer from './components/englishGrammer/EnglishGrammer';
 import EnglishVocabulary from './components/englishVocabulary/EnglishVocabulary';
-import FrenchGrammer from "./components/frenchGrammer/frenchGrammer"
-import FrenchVocabulary from "./components/frenchVocabulary/frenchVocabulary"
-import GermanVocabulary from "./components/germanVocabulary/germanVocabulary"
-import GermanGrammer from "./components/germanGrammer/germanGrammer"
+import FrenchGrammer from "./components/frenchGrammer/frenchGrammer";
+import FrenchVocabulary from "./components/frenchVocabulary/FrenchVocabulary";
+import GermanVocabulary from "./components/germanVocabulary/germanVocabulary";
+import GermanGrammer from "./components/germanGrammer/germanGrammer";
+import YourBooks from './components/yourBooks/YourBooks';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <Route path='german-grammer' element={<GermanGrammer/>} />
                 <Route path='german-vocabulary' element={<GermanVocabulary/>} />
                 <Route path='book/:bookId' element={<Book/>} />
+                <Route path='your-books' element={<YourBooks/>} />
                 <Route path='contact-with-us' element={<MyFoot/>} />
             </Routes>
         </HashRouter>

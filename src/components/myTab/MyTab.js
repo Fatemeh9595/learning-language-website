@@ -17,6 +17,9 @@ function MyTab(){
                     <Nav.Link href="./#/our-books" style={{fontWeight:"bold" , color:"rgb(69, 69, 130)" }}>Our Books</Nav.Link>
                 </Nav.Item>
                 <Nav.Item as="li">
+                    <Nav.Link href="./#/your-books" style={{fontWeight:"bold" , color:"rgb(69, 69, 130)" }}>Your Books</Nav.Link>
+                </Nav.Item>
+                <Nav.Item as="li">
                     <HashLink to="/#myFooter" className="nav-link" style={{fontWeight:"bold" , color:"rgb(69, 69, 130)" }}>Contact with us</HashLink>
                 </Nav.Item>
             </Nav>

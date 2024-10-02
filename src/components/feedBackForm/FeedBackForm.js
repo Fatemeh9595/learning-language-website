@@ -11,11 +11,8 @@ function FeedBackForm(){
      const [newNames , setNewNames] = useState("");
      const [comments , setComments] = useState([]);
      const [newComments , setNewComments] = useState("");
-     const [isButtonEnabled, setButtonEnabled] = useState(false);
     
      const win = window.localStorage;
-     const textName = useRef()
-
 
      const addNewCommentHandler =() => {
          setNames([...names , {id : names.length + 1 , name : newNames} ]);
@@ -23,25 +20,6 @@ function FeedBackForm(){
          setNewNames("");
          setNewComments("");
       }
-
-      useEffect(() => {
-         // for(let i=0 ; i<names.length ; i++){
-         //    if(names[i].name){
-         //       setButtonEnabled(false)
-               // console.log("name exist")
-         //     }else{
-         //       setButtonEnabled(true)
-         //       console.log("name is not exist")
-         //   }
-         // }
-
-             if(textName.current.value){
-               setButtonEnabled(true)
-             }  else{
-               setButtonEnabled(false)
-             }
-
-      } , [names])
 
      useEffect(()=>{
       if(win.getItem("names")){
@@ -72,14 +50,13 @@ function FeedBackForm(){
               <Form className='text-center'>
                  <Form.Group>
                     <Form.Control 
-                        ref={textName}
                         className='w-25 mb-2 m-auto text-center'
                         placeholder="Name" 
                         type="text"
                         id="nameId"
                         value={newNames}
                         onChange={(e) => setNewNames(e.target.value)}
-                    />
+                   />
                  </Form.Group>
                  <Form.Group>
                     <Form.Control 
@@ -97,7 +74,7 @@ function FeedBackForm(){
               <Button 
                 type='button'
                 className='mb-5 d-block m-auto'
-                disabled={false}
+                disabled={!newNames}
                 onClick={addNewCommentHandler}
             >Submit</Button>
 
