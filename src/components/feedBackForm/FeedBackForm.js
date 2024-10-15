@@ -110,16 +110,17 @@ function FeedBackForm() {
   const win = window.localStorage;
 
   const handleSubmit = (event) => {
-    setNames([...names , {id : names.length + 1 , name : newNames} ]);
-    setComments([...comments , {comment : newComments} ]);
-    setNewNames("");
-    setNewComments("");
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
+    }else{
+      setNames([...names , {id : names.length + 1 , name : event.currentTarget.name.value} ]);
+      setComments([...comments , {comment : event.currentTarget.comment.value} ]);
     }
     setValidated(true);
+    event.preventDefault();
+    event.stopPropagation();
   };
    
         useEffect(()=>{
@@ -150,6 +151,7 @@ function FeedBackForm() {
               type="text"
               aria-describedby="inputGroupPrepend"
               required
+              name="name"
               value={newNames}
               onChange={(e) => setNewNames(e.target.value)}
             />
@@ -166,6 +168,7 @@ function FeedBackForm() {
               as="textarea"
               aria-describedby="inputGroupPrepend"
               required
+              name="comment"
               value={newComments}
               onChange={(e) => setNewComments(e.target.value)}                         
             />
@@ -193,3 +196,4 @@ function FeedBackForm() {
 }
 
 export default FeedBackForm;
+
