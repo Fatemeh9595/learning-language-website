@@ -1,5 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
+import "animate.css/animate.compat.css"
+import "animate.css/animate.min.css";
 import {HashRouter, Route, Routes } from 'react-router-dom';
 import OurBooks from './components/ourBooks/OurBooks';
 import MyFoot from './components/myFoot/MyFoot';
@@ -11,7 +13,6 @@ import FrenchGrammer from "./components/frenchGrammer/frenchGrammer";
 import FrenchVocabulary from "./components/frenchVocabulary/FrenchVocabulary";
 import GermanVocabulary from "./components/germanVocabulary/germanVocabulary";
 import GermanGrammer from "./components/germanGrammer/germanGrammer";
-import YourBooks from './components/yourBooks/YourBooks';
 
 
 function App() {
@@ -27,7 +28,6 @@ function App() {
                 <Route path='german-grammer' element={<GermanGrammer/>} />
                 <Route path='german-vocabulary' element={<GermanVocabulary/>} />
                 <Route path='book/:bookId' element={<Book/>} />
-                <Route path='your-books' element={<YourBooks/>} />
                 <Route path='contact-with-us' element={<MyFoot/>} />
             </Routes>
         </HashRouter>

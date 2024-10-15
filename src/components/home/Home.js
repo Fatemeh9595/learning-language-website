@@ -6,6 +6,9 @@ import readingPic from "../../assets/images/read.svg";
 import {Container, Row , Col} from "react-bootstrap";
 import MyFoot from "../myFoot/MyFoot";
 import FeedBackForm from "../feedBackForm/FeedBackForm";
+import ScrollAnimation from 'react-animate-on-scroll';
+import CountUp from 'react-countup';
+
 
 
 function Home() {
@@ -95,14 +98,26 @@ function Home() {
           </Row>
       </Container>
       <Container>
+        <div className="p-5 g-5 text-center">
+           <h1 className="myPinkColor pb-5">The number of our students :</h1>
+            <CountUp 
+               className="fw-bold h1 text-primary"
+               end={1547} 
+               start={0}
+               duration={2.75}
+               separator=""
+              />
+         </div>
+      </Container>
+      <Container fluid>
          <Row className="recommendedWebsites text-center mt-5 pt-5 mx-auto w-100">
              <Col>
                   <h2
+                   className="bg-body-tertiary p-5"
                    style={{
                      fontSize: "50px",
                      fontWeight: "bold",
-                     overflowY : "hidden",
-                     color: "darkGreen"
+                     overflowY : "hidden"
                    }}
                   >
                    Top Websites to Practice English Online :
@@ -111,98 +126,123 @@ function Home() {
           </Row>
          <Row className="d-flex align-items-center m-5 p-5">
            <Col sm={12} xl={6}>
-                <p className="fs-4 p-2" style={{ textAlign: "justify" }}>
-                  <span className="famousWeb">
-                    <br />
-                    <br /> <a className="famousWeb" href="https://www.duolingo.com/">1 -Duolingo</a> {""}
-                  </span>
-                  offers a fun and engaging way to learn English. Through its
-                  game-like interface, users can practice vocabulary, grammar, and
-                  pronunciation in a variety of contexts. The platform adapts to
-                  your learning pace, making it perfect for beginners and advanced
-                  learners alike.
-                </p>
+               <ScrollAnimation animateIn='flipInY'
+                   animateOut='flipOutY'>
+                    <p className="fs-4 p-2 m-4" style={{ textAlign: "justify" }}>
+                     <span className="famousWeb">
+                       <br />
+                       <br /> <a className="famousWeb" href="https://www.duolingo.com/">1 -Duolingo</a> {""}
+                     </span>
+                     offers a fun and engaging way to learn English. Through its
+                     game-like interface, users can practice vocabulary, grammar, and
+                     pronunciation in a variety of contexts. The platform adapts to
+                     your learning pace, making it perfect for beginners and advanced
+                     learners alike.
+                   </p>
+              </ScrollAnimation>
            </Col>
            <Col sm={12} xl={6}>
-               <img
-                 style={{ width: "600px", height: "300px" }}
-                 className="img-fluid"
-                 src="https://cdn-images-1.medium.com/v2/resize:fit:800/0*Sv34Fa2E0360PEhZ.jpg"
-                 alt="image"
-               />
+              <ScrollAnimation animateIn='bounce'
+                  initiallyVisible={true}>
+                  <img
+                    style={{ width: "500px", height: "200px" }}
+                    className="img-fluid m-4 pt-2 mb-0"
+                    src="https://cdn-images-1.medium.com/v2/resize:fit:800/0*Sv34Fa2E0360PEhZ.jpg"
+                    alt="image"
+                  />
+               </ScrollAnimation>
            </Col>
          </Row><hr />
         <Row className="d-flex align-items-center m-5 p-5">
          <Col sm={12} xl={6}>
-                <p className="fs-4 p-2" style={{ textAlign: "justify" }}>
-                  <span className="famousWeb">
-                    <br />
-                    <br /><a className="famousWeb" href="https://www.bbc.co.uk/learningenglish/">2- BBC Learning English</a> {" "}
-                  </span>
-                  is a comprehensive resource offering free audio, video, and text
-                  materials. From grammar lessons to vocabulary practice, it
-                  provides a wealth of information to help you improve your English.
-                  Their content is updated regularly, covering a wide range of
-                  topics that cater to all learning levels.
-                </p>
+              <ScrollAnimation animateIn='flipInY'
+                   animateOut='flipOutY'>
+                     <p className="fs-4 p-2 m-4" style={{ textAlign: "justify" }}>
+                       <span className="famousWeb">
+                         <br />
+                         <br /><a className="famousWeb" href="https://www.bbc.co.uk/learningenglish/">2- BBC Learning English</a> {" "}
+                       </span>
+                       is a comprehensive resource offering free audio, video, and text
+                       materials. From grammar lessons to vocabulary practice, it
+                       provides a wealth of information to help you improve your English.
+                       Their content is updated regularly, covering a wide range of
+                       topics that cater to all learning levels.
+                     </p>
+              </ScrollAnimation>
          </Col> 
          <Col sm={12} xl={6}>
-            <img
-              style={{ width: "600px", height: "300px" }}
-              className="img-fluid"
-              src="https://allesl.com/wp-content/uploads/2018/05/bbc-learning-english.png"
-              alt="image"
-           />
+               <ScrollAnimation animateIn='bounce'
+                  initiallyVisible={true}>
+                  <img 
+                      style={{ width: "500px", height: "200px" }}
+                      className="img-fluid m-4 pt-2 mb-0"
+                      src="https://allesl.com/wp-content/uploads/2018/05/bbc-learning-english.png"
+                      alt="image"
+                   />
+               </ScrollAnimation>
          </Col>
         </Row><hr />
          <Row className="d-flex align-items-center m-5 p-5">
           <Col sm={12} xl={6}>
-               <p className="fs-4 p-2" style={{ textAlign: "justify" }}>
-                 <span className="famousWeb">
-                   <br />
-                   <br /> <a className="famousWeb" href="https://quizlet.com/it">3- Quizlet</a>{" "}
-                 </span>
-                 is a versatile tool that allows users to create flashcards,
-                 quizzes, and games to memorize English vocabulary and grammar. It
-                 also offers pre-made study sets covering a variety of topics,
-                 making it an excellent resource for personalized learning.
-               </p>
+              <ScrollAnimation animateIn='flipInY'
+                  animateOut='flipOutY'>
+                  <p className="fs-4 p-2 m-4" style={{ textAlign: "justify" }}>
+                    <span className="famousWeb">
+                      <br />
+                      <br /> <a className="famousWeb" href="https://quizlet.com/it">3- Quizlet</a>{" "}
+                    </span>
+                   is a versatile tool that allows users to create flashcards,
+                   quizzes, and games to memorize English vocabulary and grammar. It
+                   also offers pre-made study sets covering a variety of topics,
+                   making it an excellent resource for personalized learning.
+                 </p>
+              </ScrollAnimation>
           </Col>
           <Col sm={12} xl={6}>
-            <img
-              style={{ width: "600px", height: "300px" }}
-              className="img-fluid"
-              src="https://academic-englishuk.com/wp-content/uploads/2020/01/Quizlet-AEUK-980x578.png"
-              alt="image"
-            />
+               <ScrollAnimation animateIn='bounce'
+                  initiallyVisible={true}>
+                   <img
+                      style={{ width: "500px", height: "200px" }}
+                      className="img-fluid m-4 pt-2 mb-0"
+                      src="https://academic-englishuk.com/wp-content/uploads/2020/01/Quizlet-AEUK-980x578.png"
+                      alt="image"
+                    />
+               </ScrollAnimation>
           </Col>
          </Row><hr />
          <Row className="d-flex align-items-center m-5 p-5 ">
           <Col sm={12} xl={6}>
-               <p className="fs-4 p-2" style={{ textAlign: "justify" }}>
-                 <span className="famousWeb">
-                   <br />
-                   <br /> <a className="famousWeb" href="https://tandem.net/">4- Tandem</a> {" "}
-                 </span>
-                 connects language learners with native speakers around the world
-                 for language exchange. This app is perfect for practicing
-                 conversational English in a natural and engaging way. You can
-                 chat, make voice calls, or even video call to enhance your
-                 speaking and listening skills.
-               </p>
+              <ScrollAnimation animateIn='flipInY'
+                  animateOut='flipOutY'>
+                  <p className="fs-4 p-2  m-4" style={{ textAlign: "justify" }}>
+                    <span className="famousWeb">
+                      <br />
+                      <br /> <a className="famousWeb" href="https://tandem.net/">4- Tandem</a> {" "}
+                    </span>
+                    connects language learners with native speakers around the world
+                    for language exchange. This app is perfect for practicing
+                    conversational English in a natural and engaging way. You can
+                    chat, make voice calls, or even video call to enhance your
+                    speaking and listening skills.
+                  </p>
+              </ScrollAnimation>
           </Col>
           <Col sm={12} xl={6}>
-            <img
-              style={{ width: "600px", height: "300px" }}
-              className="img-fluid"
-              src="https://upload.wikimedia.org/wikipedia/en/8/81/Tandem_logo.png"
-              alt="image"
-            />
+              <ScrollAnimation animateIn='bounce'
+                  initiallyVisible={true}>
+                    <img
+                       style={{ width: "500px", height: "200px" }}
+                       className="img-fluid m-4 pt-2 mb-0"
+                       src="https://upload.wikimedia.org/wikipedia/en/8/81/Tandem_logo.png"
+                       alt="image"
+                     />
+               </ScrollAnimation>
           </Col>
          </Row><hr />
          <FeedBackForm/>
       </Container>
       <MyFoot/>
+      {/* <BooksData/> */}
    </>
   );
 }
